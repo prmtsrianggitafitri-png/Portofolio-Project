@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      section h2 {
+        scroll-margin-top: 50px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+        padding: 10px;
+      }
+
+      section .about,
+      #contact {
+        background-color: #146a42;
+        color: white;
+      }
+
+      .card {
+        border: 3px dashed #146a42;
+      }
+
+      a {
+        color: black;
+      }
+
+      a:visited {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success p-2 fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Fortofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class="pt-5 pt-md-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <img
+              src="img/fto-anggita.jpg"
+              alt="Anggita Fitri"
+              class="img-fluid rounded-circle border border-dark mt-4"
+            />
+            <div class="text text-center">
+              <!-- mb-0 ini dipake biar jarak antar p nya ga besar, fyi bootstap punya margin default bawaan yg bisa ngebuat jarak tiap elemennya cukup jauh -->
+              <p class="mt-3 fs-5 fw-bold mb-0">Anggita Fitri Permatasari</p>
+              <p>
+                Mahasiswa, Universitas Pendidikan Indonesia | Research Assistant
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Me Section Start -->
+    <section>
+      <div class="about">
+        <div class="row justify-content-center mt-4 mx-3">
+          <h2 id="about">About Me</h2>
+          <p class="col-md-4">
+            Hai!! saya Anggita Fitri Permatasari, anda dapat memanggil saya
+            dengan "Anggi atau Gita". Saya lahir dan besar di Kota Purwakarta,
+            Jawa Barat. Saat ini, saya adalah seorang mahasiswa aktif yang
+            menempuh pendidikan pada program studi Pendidikan Sistem dan
+            Teknologi Informasi. Saya juga merupakan lulusan Sekolah Menengah
+            Kejuruan pada Jurusan Otomatisasi dan Tata Kelola Perkantoran.
+            Lintas jurusan yang saya lakukan, membuat saya harus mendalami
+            berbagai mata kuliah secara mendalam agar saya tidak mendapatkan
+            ketertinggalan dengan teman-teman yang lainnya. Meskipun ini
+            merupakan hal yang cukup sulit, tentu saja ini tidak menjadi tekanan
+            bagi saya untuk terus belajar. Saya selalu berupaya untuk bisa
+            memaksimalkan segala peluang yang datang, salah satunya adalah
+            dengan bergabung menjadi bagian dari penelitian yang dilakukan dosen
+            sebagai assisten kajian literatur.
+          </p>
+          <p class="col-md-4">
+            Selama menjadi mahasiswa, ternyata cukup banyak projek yang telah
+            saya lakukan baik secara individu ataupun kelompok. Saya selalu
+            berupaya memaksimalkan diri pada setiap projek yang sedang
+            dilakukan. Berbagai projek tersebut dapat anda lihat pada
+            <i> section </i>
+            projek di laman web portofolio ini. Selama pengerjaan tiap projek,
+            saya pun sering menemukan berbagai kendala yang harus dihadapi.
+            Menurut saya, kendala yang ditemukan menjadi tantangan untuk diri
+            saya sebagai bagian dari proses pembelajaran. Kendala-kendala yang
+            saya temui sering kali membawa dampak positif baik bagi
+            <i>hardskill</i> ataupun <i>softskill</i> saya walaupun
+            kendala-kendala tersebut juga tak jarang membuat saya kesulitan
+            dalam beradaptasi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Me Section end -->
+
+    <!-- Project Section Start -->
+    <section class="mx-4 mb-4">
+      <div class="container">
+        <div class="Project">
+          <h2 id="Project">Project</h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- 1 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/basdat.png"
+                  class="card-img-top"
+                  alt="Project Basis Data"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sistem Manajemen Coffe Shop</h5>
+                  <p class="card-text">
+                    Sistem Manajemen Cofee Shop merupakan bagian tugas akhir
+                    dari mata kuliah Basis Data dan Sistem Basis Data,
+                    pengerjaan projek ini dilakukan secara kelompok. Sistem
+                    Manajemen Coffe Shop merupakkan bentuk implementasi dari
+                    materi-materi yang sebelumnya telah dipelajari di kelas.
+                    Kami melakukan perancangan pada sistem mulai dari penentuan
+                    berbagai entitas yang berkaitan dengan sistem ini, menyusun
+                    atribut dari setiap elemen, membentuk kardinalitas, hingga
+                    membuat relasi untuk antar entitas. Tidak berhenti sampai
+                    disitu, kelompok kami juga membuat struktur basis data dan
+                    melakukan pemodelan dan manipulasi data menggunakan
+                    Structured Query Language (SQL). <br /><br />
+                    Link Projek :
+                    <a
+                      href="https://drive.google.com/file/d/1tZ5TzhMHL7eUcpmtKDp29PzOGJBduRWE/view"
+                      target="_blank"
+                      >Klik Di Sini</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/basind.png"
+                  class="card-img-top"
+                  alt="Project Artikel Bahasa Indonesia"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Artikel Bahasa Indonesia - Pemanfaatan Teknologi pada
+                    <i>E-Commerce</i> yang Memengaruhi Nilai Ekonomi di
+                    Indonesia
+                  </h5>
+                  <p class="card-text">
+                    Pembuatan artikel ini merupakan ouput dari mata kuliah
+                    Pendidikan Bahasa Indonesia. Artikel ini disusun secara
+                    berkolompok dan membedah mengenai pemanfaatan teknologi yang
+                    dilakukan oleh para pelaku <i>e-commerce</i> dan pengaruhnya
+                    terhadap ekonomi Indonesia. Penelitian pada penyusunan
+                    artikel ini dilakukan mengenai
+                    <i>Literatur Review</i>melalui media penghimpun jurnal yang
+                    ada di internet. Hasil dari penelitian ini ditemukan bahwa
+                    teknologi berpengaruh positif terhadap nilai ekonomi karena
+                    adanya pajak yang ditetapkan untuk setiap toko dan para
+                    pelaku usaha dapat memperjual jangkauan dalam penjualan
+                    produknya. Meskipun begitu, sebagian pengguna berkemungkinan
+                    khawatir atas penyalahgunaan data pada situs
+                    <i>e-commerce</i>.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/kurpem.png"
+                  class="card-img-top"
+                  alt="Project Kurikulum dan Pembelajaran"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Kurikulum Pembelajaran - Iklan Layanan Masyarakat
+                  </h5>
+                  <p class="card-text">
+                    Projek mengenai iklan layanan masyarakat ini dibuat untuk
+                    memenuhi mata kuliah Kurikulum Pembelajaran dan dilakukan
+                    secara berkelompok. Iklan tersebut mengangkat sebuah sebuah
+                    isu mengenai pendidikan yang harus disusun secara bermakna
+                    dan menyenangkan bagi siswa. Sistem pembelajaran yang lama
+                    membuat siswa mudah bosan dan tidak bersemangat. Melalui
+                    pesan tersirat yang disampaikan dalam vidio ini menjadi
+                    harapan untuk mendukung siswa belajar secara bebas dan bebas
+                    dalam berkarya dengan kurikulum yang dilaksanakan yaitu
+                    kurikulum merdeka. <br /><br />
+                    Link Projek
+                    <a
+                      href="https://www.youtube.com/watch?v=Xcd-4QubD5s"
+                      target="_blank"
+                      >Klik Di Sini</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/literasi digital.png"
+                  class="card-img-top"
+                  alt="Product Literasi Digital"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Literasi Digital - Penerapan Computational Thinking
+                  </h5>
+                  <p class="card-text">
+                    Projek dalam melakukan penerapan
+                    <i>computational thinking </i> dilakukan secara berkelompok
+                    untuk memenuhi tugas mata kuliah Literasi Digital. Dalam
+                    pengerjaan projek ini, penelitian dilakukan melalui sebuah
+                    observasi untuk mengetahuui kemampuan
+                    <i>computational thinking</i>pada partisipan yang mengikuti.
+                    Selain melakukan observasi, kelompok kami juga melakukan
+                    sebuah metode yang diberikan untuk meningkatkan
+                    <i>computational thingking </i> partisipan. Adapun,
+                    pemilihan metode tersebut tidak dilakukan secara
+                    asal-asalan. Dalam melakukan penerapan metode yang akan
+                    diberikan, kami mengkaji berbagai kajian literatur untuk
+                    menentukan metode yang digunakan. Metode yang kami pilih
+                    berdasarkan kajian literatur adalah pembelajaran berbasis
+                    games dan pelatihan koding melalui soal-soal sederhana.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/kalkulus.jpg"
+                  class="card-img-top"
+                  alt="Project kalkulus"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Kalkulus - Tutorial Limit Tak Hingga
+                  </h5>
+                  <p class="card-text">
+                    Pembuatan tutoial pembelajaran ini dilakukan untuk memenuhi
+                    mata kuliah Kalkulus dan dilakukan secara individu.
+                    Mahasiswa diminta dosen untuk membuat tutorial mengenai
+                    salah satu topik yang dipelajari selama pembelajaran dan
+                    diunggah melalui media sosial instagram masing-masing. Dalam
+                    vidio ini, dijelaskan mengenai definisi mengenai limit tak
+                    hingga sampai contoh soal terkait topik tersebut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 6-->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/matdis.png"
+                  class="card-img-top"
+                  alt="Project Matematika Diskrit"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Matematika Diskrit - Meningkatkan Sistem Keamanan melalui
+                    Pembuatan Password yang Unik
+                  </h5>
+                  <p class="card-text">
+                    Projek ini dibuat untuk memenuhi mata kuliah Matematika
+                    Diskrit yang dilakukan secara individu. Pesatnya
+                    perkembangan teknologi membuat berbagai kemudahan dalam
+                    mengakses informasi. Tidak sedikit kasus yang menyatakan
+                    bahwa kemudahan justru terkadang membawa kekacauan.
+                    Kecanggihan teknologi sering kali disalahgunakan oleh orang
+                    yang tidak bertanggung jawab. Maka dari itu, sebagai
+                    pengguna teknologi, kita harus bijak dalam menjaga keamanan
+                    data yang dimiliki salah satunya adalah penggunaan kata
+                    sandi. Dalam rangka menyelesaikan projek mata kuliah dan
+                    ntuk mengatasi hal tersebut, saya membuat sebuah program
+                    yang dapat digunakan untuk membuat kata sandi yang unik
+                    secara otomatis sesuai jumlah string yang diinginkan.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/pengantar komputasi.png"
+                  class="card-img-top"
+                  alt="Project Pengantar komputasi"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Pengantar Komputasi - Health and Sleep Relation Data
+                  </h5>
+                  <p class="card-text">
+                    Projek ini dilakukan untuk memenuhi mata kuliah Pengantar
+                    Komputasi yang dilakukan secara kelompok. Mahasiswa diminta
+                    untuk melakukan analisis data dari berbagai variabel yang
+                    dilakukan melalui pemrograman bahasa python. Dalam
+                    peyelesaian projek ini, kelompok kami mengangkat isu
+                    mengenai hubungan antara pola tidur dengan kondisi kesehatan
+                    mental yang ada. Variabel yang terlibat dalam proses
+                    analisis ini terdiri dari jenis kelamin, usia, pekerjaan,
+                    durasi tidur, kualitas tidur, tingkat stress, tekanan darah,
+                    dan denyut nadi. Adapun kami mengambil data melalui website
+                    <a href="https://www.kaggle.com/" target="_blank"
+                      >kaggle.com</a
+                    >. <br /><br />
+
+                    Link projek :
+                    <a
+                      href="https://www.canva.com/design/DAG4HKsRmQs/LFgbBVVCbcI_S33Jlt_qIQ/edit?utm_content=DAG4HKsRmQs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                      >Klik Di Sini</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/pengantar-psti.jpg"
+                  class="card-img-top"
+                  alt="Project Pengantar PSTI"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Pengantar PSTI - Smart Attandance Smart
+                  </h5>
+                  <p class="card-text">
+                    Pembuatan Projek ini dilakukan untuk memenuhi mata kuliah
+                    pengantar komputasi. Projek ini merupakan projek besar yang
+                    dirancang oleh seluruh mahasiswa dalam 1 kelas. Sistem yang
+                    kami bangun adalah pendeteksi absen secara otomatis
+                    menggunakan arduino uno dan kartu RFID. Sistem ini bukan
+                    sekedar membaca bahwa pengguna telah berhasil melakukan
+                    presensi, tetapi juga dirancang untuk mengetahui jam
+                    kedatangan, nim, nama lengkap, dan kelas saat presensi.
+                    Untuk bisa menampilkan data-data tersebut, tentunya kartu
+                    harus didaftarkan terlebih dahulu agar bisa dikenali sistem.
+                    Pembagian tugas dilakukan dalam penyelesaian projek ini,
+                    dimana terdiri atas penanggung jawab, sekretaris, bendahara,
+                    tim perancangan, tim pengadaan, dan tim pembuatan program.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/pkn.png"
+                  class="card-img-top"
+                  alt="Project Pendidikan Kewarganegaraan"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Pendidikan Kewarganegaraan - Iklan Layanan Masyarakat
+                  </h5>
+                  <p class="card-text">
+                    Pembuatan projek vidio ini dilakukan untuk memenuhi mata
+                    kuliah Pendidikan Kewarganegaraan dan dilakukan secara
+                    berkolompok. Pada vidio ini disampaikan pesan secara
+                    tersirat bahwasannya permainan judi online (slot) hanya
+                    membawa kesenangan semanntara. Permainan ini banyak membawa
+                    kerugikan besar baik secara mental ataupun finansial.
+                    Terjebak dalam kasus ini juga dapat menyebabkan pertemanan
+                    terpecah belah. <br /><br />
+
+                    Link Project
+                    <a
+                      href="https://www.youtube.com/watch?v=j5DKWJENgvc"
+                      target="_blank"
+                      >Klik Di Sini</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 10-->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/promdas.png"
+                  class="card-img-top"
+                  alt="Project Pemrograman Dasar"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pemrograman Dasar - Mini Projek</h5>
+                  <p class="card-text">
+                    Pembuatan projek ini dilakukan untuk memenuhi mata kuliah
+                    Pemrograman Dasar dan dilakukan secara individu. Mahasiswa
+                    diminta untuk menghubungi kaka tingkat dan menanyakan
+                    program apa yang ingin dibuat oleh kaka tingkat. Permintaan
+                    tersebut nantinya akan dieskekusi oleh mahasiswa yang
+                    dituangkan dalam pemrograman bahasa C dan diunggah melalui
+                    akun github mahasiswa. Saat pengerjaan projek ini, kaka
+                    tingkat tersebut meminta kepada saya untuk dibuatkan program
+                    yang bisa menampilkan 5 orang yang memiliki nilai tertinggi
+                    dengan nilai minimum yang telah ditetapkan.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 11 -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="img/psikologi.png"
+                  class="card-img-top"
+                  alt="Project Pendidikan psikologi"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pendidikan Psikologi - Web Design</h5>
+                  <p class="card-text">
+                    Projek web design ini disusun untuk memenuhi mata kuliah
+                    Pendidikan Psikologi dan dilakukan secara berkelompok. Kami
+                    melakukan pembuatan web design ini melalui
+                    <i>software</i> bernama canva. Isu yang kami angkat pada
+                    projek ini mengenai <i>Toxic Relationship</i>. Alasan kami
+                    mengangkat isu ini karena kami merasa di lingkungan sekolah
+                    banyak terjadi pertemanan yang tidak sehat. Dalam
+                    penyelesaian web ini kami menyampaikan mengenai definisi,
+                    artikel-artikel terkait, dampak, dan ciri-ciri
+                    <i>toxic relationship</i>. Selain itu, kami juga membahas
+                    mengenai cara menanggulanginya serta tips dan trik untuk
+                    menghindarinya. Tak lupa kami sampaikan mengenai peran guru
+                    dalam isu ini. <br /><br />
+                    Link Projek :
+                    <a
+                      href="https://peecobaan.my.canva.site/toxic-relationship"
+                      target="_blank"
+                      >Klik Di Sini</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Section end -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="p-4">
+      <div class="container">
+        <h1 class="fw-bold text-center pt-5 pb-3">Contact Me</h1>
+        <div class="row gt-4">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Input Your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Your Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button class="btn btn-dark mb-2">Submit</button>
+          </div>
+          <div class="col-md-6">
+            <h4>This is my favorite song. What's yours?</h4>
+            <!-- ini biar pas vidionya mobile masih bisa nyesuain ukurannya -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/hbL5jQCw3As?si=hN1n8JSjKiL3-lv_"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer Section Start -->
+    <footer class="p-5 text-center">
+      <div class="container">
+        <a
+          href="https://www.instagram.com/gtafp31_?igsh=MXZ0Z2t2ZWd2ajM2ZQ=="
+          target="_blank"
+          ><img src="icons-main/icons-main/icons/instagram.svg" alt="instagram"
+        /></a>
+        <a href="" target="_blank"
+          ><img src="icons-main/icons-main/icons/whatsapp.svg" alt="whatsapp"
+        /></a>
+        <a
+          href="https://www.tiktok.com/@gtafpxx?_r=1&_t=ZS-91EYiJ66ZqS"
+          target="_blank"
+          ><img src="icons-main/icons-main/icons/tiktok.svg" alt="tiktok"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/anggita-fitri-permatasari-26054b379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          ><img src="icons-main/icons-main/icons/linkedin.svg" alt="linkedin"
+        /></a>
+      </div>
+      <p>copyright &copy ; Anggita Fitri Permatasari</p>
+    </footer>
+    <!-- Footer Section end -->
+
+    <!-- Javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
